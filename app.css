@@ -1,0 +1,19 @@
+body{
+    margin: 0px;
+    box-sizing: border-box;
+    width: 30vw;
+    background-image: url(https://res.cloudinary.com/dvzy9mzeh/image/upload/v1738824133/student_images/student_67a44cd039a0a03e4487977c_1738824126814.jpg);
+}
+
+#form{
+    display: flex;
+    flex-direction: column;
+    margin:auto;
+    margin-left:20%;
+    margin-top: 30%;
+}
+
+h1{
+    width: 40vw;
+    margin: auto;
+}
