@@ -1,1 +1,19 @@
+1. HyperText Markup Language (HTML) is a markup language used to create web pages.
 
+2.HTML, or HyperText Markup Language, has many features, including support for media, tables, links, and more. HTML is the foundation of the web and is used to create web pages. 
+
+3.MIME (Multipurpose Internet Mail Extensions) is an internet standard that specifies how to format and send files, including HTML. MIME is used in email and on the web. 
+
+4.<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <h1>Hello World</h1>
+    <</div>
+</body>
+</html>
