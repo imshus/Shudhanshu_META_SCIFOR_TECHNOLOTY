@@ -1,0 +1,17 @@
+
+
+.container p:first-of-type {
+    background-color: #2991ec;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: 500;
+    font-size: 1.1rem;
+}
+.container p:first-of-type::first-letter {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #ff6347;
+    float: left;
+    margin-right: 8px;
+    line-height: 1;
+}

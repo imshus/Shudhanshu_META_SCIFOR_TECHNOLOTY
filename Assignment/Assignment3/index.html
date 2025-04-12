@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Assignment3</title>
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+      }
+      .registration_form {
+        display: flex;
+        flex-direction: column;
+        width: 30%;
+        padding: 20px;
+        background-color: rgb(245, 219, 219);
+        border: 2px solid black;
+        z-index: 1;
+      }
+      .container {
+        display: flex;
+        height: 100%;
+        margin-top: 15%;
+        justify-content: center;
+        align-items: center;
+      }
+      .button {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        padding: 5px;
+      }
+      .submit_button {
+        width: 80px;
+        height: 30px;
+
+      }
+      .reset_button {
+        width: 80px;
+      }
+      .gender_container{
+        padding-top:10px ;
+      }
+      .skills-container{
+        padding-top: 10px;
+        margin-bottom: 10px;
+      }
+      .submit_button:hover , .reset_button:hover{
+        background-color: bisque;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <form action="" class="registration_form">
+        <label>Email</label><input type="text" required />
+        <label>Password</label>
+        <input type="password" required />
+        <div class="gender_container">
+          <h4>Select Your Gender:</h4>
+          <label>
+            Male <input type="radio" name="gender" value="male" />
+          </label>
+          <label>
+            Female <input type="radio" name="gender" value="female" />
+          </label>
+          <label>
+            Other <input type="radio" name="gender" value="other" />
+          </label>
+        </div>
+        <div class="skills-container">
+          <h4>Select Your Skills:</h4>
+          <label class="checkbox-label">
+            <input type="checkbox" name="skills" value="JavaScript" />
+            JavaScript
+          </label>
+          <label class="checkbox-label">
+            <input type="checkbox" name="skills" value="React" /> React
+          </label>
+          <label class="checkbox-label">
+            <input type="checkbox" name="skills" value="CSS" /> CSS
+          </label>
+          <label class="checkbox-label">
+            <input type="checkbox" name="skills" value="HTML" /> HTML
+          </label>
+          <label class="checkbox-label">
+            <input type="checkbox" name="skills" value="Node.js" /> Node.js
+          </label>
+        </div>
+        <div class="button">
+          <input class="submit_button" type="submit" required />
+          <input class="reset_button" type="reset" required />
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
